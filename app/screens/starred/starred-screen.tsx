@@ -4,8 +4,10 @@ import { View,Text } from 'react-native'
 
 export const StarredScreen = observer(function StarredScreen() {
     return (
-        <View>
-            <Text style={{flex:1,justifyContent:"center", alignContent:"center"}}>starred screen</Text>
-        </View>
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text>
+          shared Screen 🎉
+        </Text>
+      </View>
     )
 })

@@ -4,10 +4,10 @@ import { View,Text } from 'react-native'
 
 export const HomeScreen = observer(function HomeScreen() {
     return (
-        <View>
-            <Text style={{flex:1, justifyContent:"center",alignContent:"center"}}>
-                home
-            </Text>
-        </View>
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text>
+          home screen! 🎉
+        </Text>
+      </View>
     )
 })

@@ -4,8 +4,11 @@ import { View,Text } from 'react-native'
 
 export const SharedScreen = observer(function SharedScreen() {
     return (
-        <View>
-            <Text style={{flex:1,justifyContent:"center", alignContent:"center"}}>shared screen</Text>
-        </View>
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Text>
+          shared screen! 🎉
+        </Text>
+      </View>
+        
     )
 })
